@@ -295,7 +295,6 @@ public class MyLinkedList<E> implements List<E> {
 		if (fromIndex < 0 || toIndex >= size || fromIndex > toIndex) {
 			throw new IndexOutOfBoundsException();
 		}
-		// TODO: classify this and improve it.
 		int i = 0;
 		MyLinkedList<E> list = new MyLinkedList<E>();
 		for (Node node = head; node != null; node = node.next) {
